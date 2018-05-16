@@ -42,8 +42,8 @@ Basic Usage
 
 Schulze method example::
 
-    >>> from pyvotecore.schulze_method import SchulzeMethod
-    >>> from pyvotecore.condorcet import CondorcetHelper
+    >>> from py3votecore.schulze_method import SchulzeMethod
+    >>> from py3votecore.condorcet import CondorcetHelper
     >>> ballots = [
     ...   { "count":3, "ballot":[["A"], ["C"], ["D"], ["B"]] },
     ...   { "count":9, "ballot":[["B"], ["A"], ["C"], ["D"]] },
